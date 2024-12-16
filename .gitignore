@@ -1,0 +1,24 @@
+# Dependency directories
+node_modules/
+
+# Build directory
+.next/
+
+# Environment variables file (if you're using .env)
+
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Log files
+npm-debug.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db

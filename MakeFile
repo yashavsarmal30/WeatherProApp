@@ -1,0 +1,33 @@
+# Makefile for Next.js app
+
+# Define variables
+NODE_MODULES_BIN=./node_modules/.bin
+NEXT=$(NODE_MODULES_BIN)/next
+
+# Default target
+.DEFAULT_GOAL := help
+
+# Help target
+help:
+    @echo "Usage:"
+    @echo "  make dev              Start the development server"
+    @echo "  make build            Build the project for production"
+    @echo "  make start            Start the production server"
+    @echo "  make clean            Clean the build files"
+    @echo ""
+
+# Start development server
+dev:
+    $(NEXT) dev
+
+# Build for production
+build:
+    $(NEXT) build
+
+# Start production server
+start:
+    $(NEXT) start
+
+# Clean build files
+clean:
+    rm -rf ./.next
