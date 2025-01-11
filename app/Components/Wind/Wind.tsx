@@ -24,13 +24,13 @@ function Wind() {
 
       <div className="compass relative flex items-center justify-center">
         <div className="image relative">
-          <Image
+          <img
             src="/compass_body.svg"
             alt="compass"
             width={110}
             height={110}
           />
-          <Image
+          <img
             src="/compass_arrow.svg"
             alt="compass"
             className="absolute top-0 left-[50%] transition-all duration-500 ease-in-out dark:invert"
