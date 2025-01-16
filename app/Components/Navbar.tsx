@@ -28,16 +28,16 @@ function Navbar() {
           >
             {sunset} Zoom Earth
           </Button>
-          <p
-            // href="https://yashavsarmal.netlify.app/"
-            // target="_blank"
+          <a
+             href="https://yashavsarmal.netlify.app/"
+             target="_blank"
             rel="noopener noreferrer"
             className="source-code-btn flex items-center gap-2"
           >
             <Button>
               {people} Contact
             </Button>
-          </p>
+          </a>
 
         </div>
       </div>

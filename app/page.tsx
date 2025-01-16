@@ -83,7 +83,7 @@ export default function Home() {
 
       <footer className="py-4 flex justify-center pb-8" >
         <p className="footer-text text-sm flex items-center gap-1" > 
-          {/* href={"https://yashavsarmal.netlify.app/"} target="_blank" */}
+           href={"https://yashavsarmal.netlify.app/"} target="_blank"
           WeatherPro - An Weather App
         </p>
 
