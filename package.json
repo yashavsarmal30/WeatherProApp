@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "push": "node git-push.mjs"
+    "push": "node git-push.mjs",
+     "pull": "git pull origin main"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.0.5",
