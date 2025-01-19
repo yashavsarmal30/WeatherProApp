@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useRouter } from "next/navigation";
 import React from "react";
 import { github, people, sunset } from "../utils/Icons";
@@ -17,7 +17,7 @@ function Navbar() {
       <div className="left"></div>
       <div className="search-container flex shrink-0 w-full gap-2 sm:w-fit">
         <SearchDialog />
-        <SpeedInsights/>
+        <SpeedInsights />
 
         <div className="btn-group flex items-center gap-2">
           <ThemeDropdown />
@@ -31,16 +31,13 @@ function Navbar() {
             {sunset} Zoom Earth
           </Button>
           <a
-             href="https://yashavsarmal.netlify.app/"
-             target="_blank"
+            href="https://yashavsarmal.netlify.app/"
+            target="_blank"
             rel="noopener noreferrer"
             className="source-code-btn flex items-center gap-2"
           >
-            <Button>
-              {people} Contact
-            </Button>
+            <Button>{people} Contact </Button>
           </a>
-
         </div>
       </div>
     </div>
